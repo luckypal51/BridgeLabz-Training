@@ -1,0 +1,33 @@
+import java.util.*;
+public class Compare{
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		String s1 = sc.next();
+		String s2 = sc.next();
+		if(s1.equals(lexico(s1,s2,0))){
+			System.out.println(s1+" comes before "+s2+" in lexicographical order");
+		}else{
+			System.out.println(s2+" comes before "+s1+" in lexicographical order");
+		}
+		
+	}
+	public static String lexico(String s1,String s2,int idx){
+		if(idx==s1.length()||idx==s2.length()){
+			if(s1.length()<s2.length()){
+				return s1;
+			}else{
+				return s2;
+			}
+		}
+		if(s1.charAt(idx)!=s2.charAt(idx)){
+			int ch1 = (int)(s1.charAt(idx));
+			int ch2 = (int)(s2.charAt(idx));
+			if(ch1<ch2){
+				return s1;
+			}else{
+				return s2;
+			}
+		}
+		return lexico(s1,s2,idx+1);
+	}
+}
