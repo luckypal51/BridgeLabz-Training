@@ -29,7 +29,7 @@ Practised Git workflow to understand commits and version control.
 Solved basic programs to understand syntax and structure.
 Practised adding, commiting and pushing java files to Github.
 Code link
-Day 2: Basic java programs
+Day 2: Basic java programs(https://github.com/luckypal51/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequisite)
 
 Day 3: Git practice and basic java programs
 (Date: 18 Dec 2025)
@@ -41,7 +41,7 @@ Studied java programming elements
 Solved practice problem based on programming elements.
 Commited and pushed solutions to repository.
 Code link
-Day 3: Programming Elements
+Day 3: Programming Elements(https://github.com/luckypal51/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 
 Day 4: java control flow programs
 (Date: 19 Dec 2025)
@@ -53,7 +53,7 @@ Studied java control flow
 Solved practice problem based on control flow
 Commited and pushed solutions to repository.
 Code link
-Day 4: Control flow
+Day 4: Control flow(https://github.com/luckypal51/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows)
 
 Day 5: studied Arrays in java
 (Date: 20 Dec 2025)
@@ -62,7 +62,7 @@ Studied java Arrays
 Solved practice problem based on array.
 Commited and pushed solutions to repository.
 Code link
-Day 5: Control flow
+Day 5: Control flow(https://github.com/luckypal51/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows)
 
 Day 6: studied methods in java
 (Date: 22 Dec 2025)
@@ -71,7 +71,7 @@ Studied java methods
 Solved practice problem based on methods.
 Commited and pushed solutions to repository.
 Code link
-Day 6: Methods
+Day 6: Methods(https://github.com/luckypal51/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Methods)
 
 Day 7: studied strings in java
 (Date: 23 Dec 2025)
@@ -80,7 +80,7 @@ Studied java strings.
 Solved practice problem based on string.
 Commited and pushed solutions to repository.
 Code link
-Day 7: Strings
+Day 7: Strings(https://github.com/luckypal51/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Strings)
 
 Day 8: studied date and time concept in java and solved extra questions
 (Date: 24 Dec 2025)
@@ -89,4 +89,4 @@ Studied how to get dates in different formats in java. Solved extra practice pro
 Solved extra practice problem based on methods.
 Commited and pushed solutions to repository.
 Code link
-Day 8: Extra questions
+Day 8: Extra questions(https://github.com/luckypal51/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Extra)
