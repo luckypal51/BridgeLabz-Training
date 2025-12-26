@@ -4,7 +4,7 @@ public class Longest{
 		Scanner sc = new Scanner(System.in);
 		String s = sc.nextLine();
 		
-		System.out.println("The  longest string in the sentence is "+longest(s));
+		System.out.println("The longest string in the sentence is "+longest(s));
 	}
 	public static String longest(String s){
 		String[] arr = s.split(" ");
