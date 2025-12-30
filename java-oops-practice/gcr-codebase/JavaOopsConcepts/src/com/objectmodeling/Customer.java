@@ -16,28 +16,28 @@ public class Customer {
 			System.out.println("Enter a to add book     :");
 			System.out.println("Enter e to exit         :");
 			char ch =sc.next().charAt(0);
+			sc.nextLine();
 			if(ch=='v'||ch=='V') {
 				l.view();
 			}else if(ch=='b'||ch=='B') {
 			    System.out.println("Enter the name of book  :");
-			    String s = sc.nextLine();
-			    sc.nextLine();
-				l.borrow(s);
+			    
+				l.borrow(sc.nextLine());
+				//System.out.println("Thank You ! for selecting the book");
 			}else if(ch=='r'||ch=='R') {
 			    System.out.println("Enter the name of book  :");
-				String s = sc.nextLine();
-			    sc.nextLine();
-				l.returnBook(s);
+			   
+				l.returnBook( sc.nextLine());
 			}else if(ch=='a'||ch=='A') {
+				sc.nextLine();
 				System.out.println("Enter the name of book  :");
 				String name = sc.nextLine();
-				
 				System.out.println("Enter the author name   :");
 				String author = sc.nextLine();
 				
 				System.out.println("Enter the price         :");
 				float price = sc.nextFloat();
-				sc.nextLine();
+				
 				l.addBook(name, author, price);
 			}else if(ch=='e'||ch=='E') {
 				System.out.println("Thank you come again ");

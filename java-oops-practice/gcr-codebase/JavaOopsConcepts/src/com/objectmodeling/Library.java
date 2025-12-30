@@ -1,6 +1,8 @@
 package com.objectmodeling;
 import java.util.*;
 
+//import jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput;
+
 public class Library {
     static ArrayList<Book> list = new ArrayList<>();
      
@@ -15,20 +17,24 @@ public class Library {
     	 }
      }
      public void borrow(String bookName) {
+    	 
     	 bookName = bookName.toLowerCase();
-    	 for(Book a:list) {
-    		 if(a.getBookName().equals(bookName)) {
-    			 if(a.isAvailable()) {
+    	 
+	 for(Book a:list) {
+   		 
+   		 if(a.getBookName().equals(bookName)) {
+   			 if(a.isAvailable()) {
     				 a.setAvailable(false);
-    				 System.out.println("The book has been borrowed !");
-    				 return;
-    			 }else {
-    				 System.out.println("The book is not available !");
-    				 return;
-    			 }
-    		 }
-    		
-    	 }
+  				 System.out.println("The book has been borrowed !");
+   				 return;
+   			 }else {
+   				 System.out.println("The book is not available !");
+   				 return;
+   			 }
+   		 }
+ 		
+ 	 }
+    	
     	 System.out.println("The book is not present !");
      }
      public void returnBook(String bookName) {
