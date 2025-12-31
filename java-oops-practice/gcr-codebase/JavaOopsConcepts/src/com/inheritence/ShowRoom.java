@@ -6,11 +6,12 @@ public class ShowRoom {
 		Car car = new Car(210,"Diesel/Petrol",5);
 		Truck truck = new Truck(180,"Diesel",3);
 		MotorCycle mt = new MotorCycle(180,"Petrol",2);
+		Vehicle[] arr = {car,v,truck,mt};
 		
-		v.displayInfo();
-		car.displayInfo();
-		truck.displayInfo();
-		mt.displayInfo();
+		for(Vehicle k:arr) {
+			k.displayInfo();
+		}
+		
 		
 	}
 }
