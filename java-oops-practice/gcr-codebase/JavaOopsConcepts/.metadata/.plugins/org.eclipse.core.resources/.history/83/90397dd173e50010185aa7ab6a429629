@@ -1,0 +1,62 @@
+package com.objectmodeling;
+import java.util.*;
+
+//import jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput;
+
+public class Library {
+    static ArrayList<Book> list = new ArrayList<>();
+     
+     public  void view() {
+    	 System.out.println("The List Of Books :");
+    	 for(Book a:list) {
+    		 System.out.println("----------------------------------");
+    		 System.out.println("Book name      : "+a.getBookName());
+    		 System.out.println("Author name    : "+a.getAuthor());
+    		 System.out.println("Book price     : "+a.getPrice());
+    		 System.out.println("Book available : "+a.isAvailable());
+    	 }
+     }
+     public void borrow(String bookName) {
+    	 
+    	 bookName = bookName.toLowerCase();
+    	 System.out.print(bookName);
+    	 for(Book a:list) {
+    		 
+    		 if(a.getBookName().equals(bookName)) {
+    			 if(a.isAvailable()) {
+    				 a.setAvailable(false);
+    				 System.out.println("The book has been borrowed !");
+    				 return;
+    			 }else {
+    				 System.out.println("The book is not available !");
+    				 return;
+    			 }
+    		 }
+    		
+    	 }
+    	 System.out.println("The book is not present !");
+     }
+     public void returnBook(String bookName) {
+    	 bookName = bookName.toLowerCase();
+    	 for(Book a:list) {
+    		 if(a.getBookName().equals(bookName)) {
+    			 if(a.isAvailable()) {
+    				 System.out.println("The book is already returned !");
+    				 return;
+    			 }else {
+    				 a.setAvailable(true);
+    				 System.out.println("The book is returned successfully!");
+    				 return;
+    			 }
+    		 }
+    		
+    	 }
+    	 System.out.println("The book is not present !");
+     }
+     public void addBook(String bookName, String author, float price) {
+    	 bookName = bookName.toLowerCase();
+    	 Book b = new Book(author,bookName,price);
+    	 list.add(b);
+    	 System.out.println("The book is successfully added in the list");
+     }
+}
