@@ -21,15 +21,11 @@ public class Customer {
 				l.view();
 			}else if(ch=='b'||ch=='B') {
 			    System.out.println("Enter the name of book  :");
-			    
 				l.borrow(sc.nextLine());
-				//System.out.println("Thank You ! for selecting the book");
 			}else if(ch=='r'||ch=='R') {
 			    System.out.println("Enter the name of book  :");
-			   
 				l.returnBook( sc.nextLine());
 			}else if(ch=='a'||ch=='A') {
-				sc.nextLine();
 				System.out.println("Enter the name of book  :");
 				String name = sc.nextLine();
 				System.out.println("Enter the author name   :");
