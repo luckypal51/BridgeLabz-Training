@@ -1,4 +1,4 @@
-package Questions;
+package Questions.Bank;
 
 public class Account {
        double balance;
