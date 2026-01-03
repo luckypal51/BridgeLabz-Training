@@ -1,4 +1,4 @@
-package Questions;
+package Questions.Bank;
 
 import java.util.*;
 
