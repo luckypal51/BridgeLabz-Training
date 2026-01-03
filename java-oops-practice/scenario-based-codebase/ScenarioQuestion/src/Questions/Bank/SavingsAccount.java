@@ -1,4 +1,4 @@
-package Questions;
+package Questions.Bank;
 
 public class SavingsAccount extends Account{
        int interest;
