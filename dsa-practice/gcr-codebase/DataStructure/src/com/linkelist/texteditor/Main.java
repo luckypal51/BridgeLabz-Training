@@ -24,6 +24,6 @@ public class Main {
 	        editor.addState("Lucky coder");
 	        editor.displayCurrentState();
 
-	        editor.redo();  // redo cleared after new state
+	        editor.redo(); 
 	    }
 }
