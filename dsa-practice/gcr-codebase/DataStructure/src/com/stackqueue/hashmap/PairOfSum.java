@@ -14,6 +14,7 @@ public class PairOfSum {
 		for(int a: arr) {
 			if(map.containsKey(sum-a)) {
 				System.out.println("The pair are "+a+" | "+(sum-a));
+				map.put(a,sum-a);
 			}else {
 				map.put(a,sum-a);
 			}
