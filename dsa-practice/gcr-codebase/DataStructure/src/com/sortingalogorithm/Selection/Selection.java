@@ -1,4 +1,4 @@
-package com.sortingalogorithm.insertion;
+package com.sortingalogorithm.Selection;
 
 import java.util.Arrays;
 
