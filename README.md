@@ -1,6 +1,8 @@
 # BridgeLabz Training Progress Log 
 This repository tracks my daily learning journey during the BridgeLabz Java Full Stack Program. Each day includes Git/GitHub activities, Java concepts, and committed code links.
 ---
+## Week-2 Object-oriented Programming
+---
 ### Day 10 – Object-oriented Programming Fundamental
 **Date:** 26-Dec-2025
 - Create new branch java-oops-practice
@@ -43,6 +45,8 @@ This repository tracks my daily learning journey during the BridgeLabz Java Full
 - Solved practice problems and enchance the feature
 - Pushed solutions to GitHub
 - Code Link: [java-ooops-practice(Encapsulation)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulation)
+---
+## Week-3 Scenario-based Questions
 ---
 ###  Day 16 – scenario-code-base problem
 **Date:** 02-Jan-2026
