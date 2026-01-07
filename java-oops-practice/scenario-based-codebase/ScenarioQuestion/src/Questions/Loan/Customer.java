@@ -41,6 +41,7 @@ public class Customer {
 				return;
 			}
 		}
+		System.out.println("Loan not found");
 		return;
 	}
 }
