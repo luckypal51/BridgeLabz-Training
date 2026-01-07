@@ -101,6 +101,8 @@ Day 9: LeetCode Problems
 > practice String, Math, and Array problems
 > Code Link: [Leet-code-base](https://github.com/luckypal51/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
 
+Week 2: Scenario-Based Questions 
+
 Day 10: scenario-code-base problem
 (Date: 26-Dec-2025)  
 > solved 3 scenario-based problems
