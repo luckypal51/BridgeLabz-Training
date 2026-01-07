@@ -16,7 +16,7 @@ public class Loan {
     public void details() {
     	System.out.println("\n------Loan Details-------");
     	System.out.println("Customer Name : "+this.customerName);
-    	System.out.println("Loan Amount   : "+this.remainingAmount);
+    	System.out.println("Loan Amount   : "+this.loanAmount);
     	System.out.println("Loan Id       : "+this.loanId);
     	System.out.println("Remaining     : "+this.remainingAmount);
     }
