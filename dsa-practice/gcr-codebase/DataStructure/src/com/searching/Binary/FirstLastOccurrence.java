@@ -1,7 +1,17 @@
 package com.searching.Binary;
 
 public class FirstLastOccurrence {
+	 public static void main(String[] args) {
 
+	        int[] arr = {2, 4, 4, 4, 6, 7, 8};
+	        int target = 4;
+
+	        int first = findFirstOccurrence(arr, target);
+	        int last = findLastOccurrence(arr, target);
+
+	        System.out.println("First Occurrence: " + first);
+	        System.out.println("Last Occurrence: " + last);
+	    }
     public static int findFirstOccurrence(int[] arr, int target) {
         int left = 0, right = arr.length - 1;
         int first = -1;
@@ -38,17 +48,5 @@ public class FirstLastOccurrence {
             }
         }
         return last;
-    }
-
-    public static void main(String[] args) {
-
-        int[] arr = {2, 4, 4, 4, 6, 7, 8};
-        int target = 4;
-
-        int first = findFirstOccurrence(arr, target);
-        int last = findLastOccurrence(arr, target);
-
-        System.out.println("First Occurrence: " + first);
-        System.out.println("Last Occurrence: " + last);
     }
 }
