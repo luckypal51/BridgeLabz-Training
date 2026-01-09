@@ -55,14 +55,14 @@ public class ArtWork implements IPurschaseable{
 		 System.out.println("Price       : "+getPrice());
 		 System.out.println("Discount    : 10%");
 		 System.out.println("------------------------------");
-		 System.out.println("Final Price : "+(getPrice()+((getPrice()/100)*10)));}
+		 System.out.println("Final Price : "+(getPrice()-((getPrice()/100)*10)));}
 		   else {
-			     System.out.println("\n------Purchase Bill--------");
-				 System.out.println("Title       : "+getTitle());
-				 System.out.println("Artist Name : "+getArtistName());
-				 System.out.println("Price       : "+getPrice());
-				 System.out.println("-----------------------------");
-				 System.out.println("Final Price : "+getPrice());
+		 System.out.println("\n------Purchase Bill--------");
+		 System.out.println("Title       : "+getTitle());
+		 System.out.println("Artist Name : "+getArtistName());
+		 System.out.println("Price       : "+getPrice());
+		 System.out.println("-----------------------------");
+		 System.out.println("Final Price : "+getPrice());
 				 }   
 		   }
 		 
@@ -78,7 +78,6 @@ public class ArtWork implements IPurschaseable{
 		   System.out.println("Title       : "+getTitle());
 		   System.out.println("Artist Name : "+getArtistName());
 		   System.out.println("Price       : "+getPrice());
-		   System.out.println("License Type: "+getLicense());
 	   }
        
 }
