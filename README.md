@@ -33,4 +33,10 @@ This repository tracks my daily learning journey during the BridgeLabz Java Full
 - Solved and learned Algorithm's Runtime Analysis & Big-O Notation
 - Pushed solution to Github
 - Code Link: [dsa-practice(Notation)](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DataStructure) 
-- Code Link: [java-oops-practice(scenario-code-base)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioQuestion/src/Questions)
+---
+### Date 09-Jan-2026 (Leetcode Questions Based on Data-Structure)
+- Solved Data-Structure and Algorithm problems on leetcode
+- Solved Easy, Medium and Hard level questions
+- Pushed solution on Github
+- Code Link: [dsa-practice(Leetcode)](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leetcode-codebase)
+---
