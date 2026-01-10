@@ -136,3 +136,17 @@ This repository tracks my daily learning journey during the BridgeLabz Java Full
 - Pushed solution to Github
 - Code Link: [dsa-practice(Notation)](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DataStructure) 
 - Code Link: [java-oops-practice(scenario-code-base)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioQuestion/src/Questions)
+---
+### Date 08-Jan-2026 (Scenario-based problems)
+- Worked on "java-oops-practice" branch
+- Solved scenario-based problem
+- Pushed solutions on GitHub
+- Code Link: [java-oops-practice(scenario-code-base)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioQuestion/src/Questions)
+---
+### Date 09-Jan-2026 (Scenario-based and LeetCode problems)
+- Worked on "java-oops-practice" and "dsa-practice" branch
+- Solved Leetcode problems and scenario-based problems
+- Pushed solution on GitHub
+- Code Link: [java-oops-practice(scenario-code-base)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioQuestion/src/Questions)
+- Code Link: [dsa-practice(LeetCode)](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leetcode-codebase)
+---
