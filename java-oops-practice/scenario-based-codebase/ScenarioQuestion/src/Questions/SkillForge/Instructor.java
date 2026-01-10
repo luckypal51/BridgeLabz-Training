@@ -1,0 +1,13 @@
+package Questions.SkillForge;
+
+public class Instructor extends User {
+
+    public Instructor(String name, String email) {
+        super(name, email);
+    }
+
+    @Override
+    public void displayRole() {
+        System.out.println("Role: Instructor");
+    }
+}
