@@ -21,7 +21,7 @@ public class Library {
      }
      public void viewBook() {
     	 for(var m: map.entrySet()) {
-    		 System.out.println("----------------");
+    		 System.out.println("\n----------------");
     		 System.out.println("Genre : "+m.getKey());
     		 System.out.println("-----------------");
     		 m.getValue().view();
