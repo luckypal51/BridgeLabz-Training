@@ -50,7 +50,7 @@ public class LinkedList {
         }
         Node node = head;
         while(node!=null) {
-       	 System.out.println("\n-------Book details--------");
+       	 System.out.println("-------Book details--------");
     	 System.out.println("Book Name   : "+node.name);
     	 System.out.println("Author Name : "+node.author);
     	 System.out.println("Price       : "+node.price);
