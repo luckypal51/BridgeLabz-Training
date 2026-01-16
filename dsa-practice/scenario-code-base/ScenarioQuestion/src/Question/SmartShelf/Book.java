@@ -1,4 +1,4 @@
-package Questions.SmartShelf;
+package Question.SmartShelf;
 
 public class Book {
     String title;

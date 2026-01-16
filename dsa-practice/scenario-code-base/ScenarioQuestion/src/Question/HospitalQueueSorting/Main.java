@@ -1,4 +1,4 @@
-package Questions.HospitalQueueSorting;
+package Question.HospitalQueueSorting;
 
 public class Main {
     public static void main(String[] args) {

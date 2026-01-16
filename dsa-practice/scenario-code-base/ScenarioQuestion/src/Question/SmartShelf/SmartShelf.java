@@ -1,4 +1,4 @@
-package Questions.SmartShelf;
+package Question.SmartShelf;
 
 public class SmartShelf {
     public static void insertionSort(Book[] books) {

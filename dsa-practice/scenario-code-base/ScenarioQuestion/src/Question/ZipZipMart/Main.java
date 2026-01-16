@@ -1,4 +1,4 @@
-package Questions.ZipZipMart;
+package Question.ZipZipMart;
 
 public class Main {
 	public static void main(String[] args) {

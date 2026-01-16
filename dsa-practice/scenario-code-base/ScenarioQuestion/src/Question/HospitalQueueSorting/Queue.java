@@ -1,4 +1,4 @@
-package Questions.HospitalQueueSorting;
+package Question.HospitalQueueSorting;
 
 public class Queue {
      Patient head;

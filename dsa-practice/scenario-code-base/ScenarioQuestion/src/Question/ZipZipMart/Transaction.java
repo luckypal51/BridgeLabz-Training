@@ -1,4 +1,4 @@
-package Questions.ZipZipMart;
+package Question.ZipZipMart;
 
 public class Transaction {
     String date;    
