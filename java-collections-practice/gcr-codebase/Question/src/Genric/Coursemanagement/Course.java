@@ -13,6 +13,7 @@ public class Course <T extends CourseType>{
     	arr.add(course);
     }
    public void view() {
+	   // for using wild card generic method 
 	   Display.display(arr);
    }
 }
