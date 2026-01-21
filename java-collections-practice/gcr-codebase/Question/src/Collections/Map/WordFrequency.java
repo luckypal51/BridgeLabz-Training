@@ -15,7 +15,7 @@ public class WordFrequency {
 			}
 			idx++;
 		}
-		System.out.println(str.toString());
+		
 		String[] arr = str.toString().split(" ");
 		HashMap<String,Integer> map = new HashMap<>();
 		for(String a : arr) {
