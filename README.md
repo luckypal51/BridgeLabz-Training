@@ -95,3 +95,28 @@ This repository tracks my daily learning journey during the BridgeLabz Java Full
 - Pushed solutions to GitHub
 - Code Link: [java-oops-practice(scenario-code-base)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioQuestion/src/Questions)
 ---
+### Date 12-Jan-2026
+- solved 3 scenario-based problems
+- Solved practice problems and enchance the feature
+- Pushed solutions to GitHub
+- Code Link: [java-oops-practice(scenario-code-base)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioQuestion/src/Questions)
+---
+### Date 13-Jan-2026
+- solved 2 scenario-based problems
+- Solved practice problems and enchance the feature
+- Pushed solutions to GitHub
+- Code Link: [java-oops-practice(scenario-code-base)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioQuestion/src/Questions)
+---
+### Date 17-Jan-2026
+- solved 2 scenario-based problems
+- Solved practice problems and enchance the feature
+- Pushed solutions to GitHub
+- Code Link: [java-oops-practice(scenario-code-base)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioQuestion/src/Questions)
+---
+### Date 19-Jan-2026
+- solved 1 scenario-based problems
+- Solved practice problems and enchance the feature
+- Pushed solutions to GitHub
+- Code Link: [java-oops-practice(scenario-code-base)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioQuestion/src/Questions)
+
+---
