@@ -150,3 +150,60 @@ This repository tracks my daily learning journey during the BridgeLabz Java Full
 - Code Link: [java-oops-practice(scenario-code-base)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioQuestion/src/Questions)
 - Code Link: [dsa-practice(LeetCode)](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leetcode-codebase)
 ---
+### Date 10-Jan-2026  
+- Solved 3 scenario-based problems in OOPs 
+- Solved 3 scenario-based problems in data structure
+- Improved design & problem-solving skills  
+🔗 Code Link:  
+- [Scenario Code Base(DSA)](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-code-base/ScenarioQuestion/src/Question)
+- [Scenario Code Base(OOPs)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioQuestion/src/Questions)
+---
+### Date 12-Jan-2026  
+- Solved 3 scenario-based problems in OOPs 
+- Solved 3 scenario-based problems in data structure
+- Improved design & problem-solving skills  
+🔗 Code Link:  
+- [Scenario Code Base(DSA)](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-code-base/ScenarioQuestion/src/Question)
+- [Scenario Code Base(OOPs)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioQuestion/src/Questions)
+---
+### Date 13-Jan-2026  
+- Solved 3 scenario-based problems in OOPs 
+- Solved 3 scenario-based problems in data structure
+- Improved design & problem-solving skills  
+🔗 Code Link:  
+- [Scenario Code Base(DSA)](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-code-base/ScenarioQuestion/src/Question)
+- [Scenario Code Base(OOPs)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioQuestion/src/Questions)
+---
+### Date 15-Jan-2026  
+- Solved problem in java-collections generic problem
+- Solved 5 scenario-based problems in data structure
+- Improved design & problem-solving skills  
+🔗 Code Link:  
+- [Scenario Code Base(DSA)](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-code-base/ScenarioQuestion/src/Question)
+- [java-collections-practice](https://github.com/luckypal51/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/Question/src/Genric)
+---
+### Date 16-Jan-2026  
+- Solved problems in java-collections
+- Solved 3 scenario-based problems in data structure
+- Improved design & problem-solving skills  
+🔗 Code Link:  
+- [Scenario Code Base(DSA)](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-code-base/ScenarioQuestion/src/Question)
+- [java-collections-practice](https://github.com/luckypal51/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/Question/src/Collections)
+---
+### Date 17-Jan-2026  
+- Solved 2 scenario-based problems in 'java-oops-practice'
+- Solved 4 scenario-based problems in 'dsa-practice'
+- Improved design & problem-solving skills  
+🔗 Code Link:  
+- [Scenario Code Base(DSA)](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-code-base/ScenarioQuestion/src/Question)
+- [Scenario Code Base(OOPs)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioQuestion/src/Questions)
+---
+### Date 19-Jan-2026  
+- Solved 1 scenario-based problems in 'java-oops-practice'
+- Solved 3 scenario-based problems in 'dsa-practice'
+- Solved Problems in Java Streams
+- Improved design & problem-solving skills  
+🔗 Code Link:  
+- [Scenario Code Base(DSA)](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-code-base/ScenarioQuestion/src/Question)
+- [Scenario Code Base(OOPs)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioQuestion/src/Questions)
+---
