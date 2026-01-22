@@ -40,3 +40,68 @@ This repository tracks my daily learning journey during the BridgeLabz Java Full
 - Pushed solution on Github
 - Code Link: [dsa-practice(Leetcode)](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leetcode-codebase)
 ---
+### Date 10-Jan-2026  
+- Solved 3 scenario based problem
+- Improved design & problem-solving skills  
+🔗 Code Link:  
+- [scenario-based-codebase](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-code-base/ScenarioQuestion/src/Question) 
+---
+
+### Date 12-Jan-2026  
+- Solved 3 scenario based problem
+- Improved design & problem-solving skills  
+🔗 Code Link:  
+- [scenario-based-codebase](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-code-base/ScenarioQuestion/src/Question) 
+---
+
+### Date 13-Jan-2026  
+- Solved 3 scenario based problem
+- Improved design & problem-solving skills  
+🔗 Code Link:  
+- [scenario-based-codebase](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-code-base/ScenarioQuestion/src/Question) 
+---
+
+### Day 24 – Scenario Based Problems
+**Date:** 15-Jan-2026  
+- Solved 5 scenario based problem
+- Improved design & problem-solving skills  
+
+🔗 Code Link:  
+- [scenario-based-codebase](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-code-base/ScenarioQuestion/src/Question) 
+
+---
+
+### Date 16-Jan-2026  
+- Solved 3 scenario based problem
+- Improved design & problem-solving skills  
+🔗 Code Link:  
+- [scenario-based-codebase](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-code-base/ScenarioQuestion/src/Question) 
+---
+
+### Date 17-Jan-2026  
+- Solved 4 scenario based problem
+- Improved design & problem-solving skills  
+🔗 Code Link:  
+- [scenario-based-codebase](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-code-base/ScenarioQuestion/src/Question) 
+---
+
+### Date 19-Jan-2026  
+- Solved 3 scenario based problem
+- Improved design & problem-solving skills  
+🔗 Code Link:  
+- [scenario-based-codebase](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-code-base/ScenarioQuestion/src/Question) 
+---
+
+### Date 20-Jan-2026  
+- Solved 3 scenario based problem
+- Improved design & problem-solving skills  
+🔗 Code Link:  
+- [scenario-based-codebase](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-code-base/ScenarioQuestion/src/Question) 
+---
+
+### Date 21-Jan-2026  
+- Solved 2 scenario based problem
+- Improved design & problem-solving skills  
+🔗 Code Link:  
+- [scenario-based-codebase](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-code-base/ScenarioQuestion/src/Question) 
+---
