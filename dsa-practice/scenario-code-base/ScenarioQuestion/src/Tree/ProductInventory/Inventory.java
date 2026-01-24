@@ -1,8 +1,7 @@
 package Tree.ProductInventory;
 
 public class Inventory {
-	Product root;
-	
+	private Product root;
 	public void insert(Product s) {
 		Product temp = root;
 		root = insert(s,temp);
