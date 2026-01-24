@@ -1,0 +1,5 @@
+email = pallucky936@gmail.com
+phone = 8305144536
+name = lucky pal
+domain = java 
+project = AI Mock Interview Generator;
