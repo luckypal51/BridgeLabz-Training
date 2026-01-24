@@ -18,7 +18,7 @@ public class Main {
 
 	        system.showEvents();
 
-	        System.out.println("\n Cancel Event:");
+	        System.out.println("\nCancel Event:");
 	        system.cancelEvent(LocalDateTime.of(2026, 2, 5, 15, 30));
 
 	        system.showEvents();
