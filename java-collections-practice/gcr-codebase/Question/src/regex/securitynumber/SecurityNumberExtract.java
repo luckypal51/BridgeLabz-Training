@@ -10,7 +10,7 @@ public class SecurityNumberExtract {
 	        Pattern pattern = Pattern.compile(regex);
 	        Matcher matcher = pattern.matcher(text);
 	        if (matcher.find()) {
-	            System.out.println("\"" + matcher.group() + "->"+" is valid");
+	            System.out.println("\"" + matcher.group() + " ->"+" is valid");
 	        } else {
 	            System.out.println("Invalid SSN");
 	        }

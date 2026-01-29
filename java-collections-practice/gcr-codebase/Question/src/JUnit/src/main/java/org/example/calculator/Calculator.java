@@ -1,4 +1,4 @@
-package org.example.calculator;
+package JUnit.src.main.java.org.example.calculator;
 
 public class Calculator {
     public double add(double a, double b){

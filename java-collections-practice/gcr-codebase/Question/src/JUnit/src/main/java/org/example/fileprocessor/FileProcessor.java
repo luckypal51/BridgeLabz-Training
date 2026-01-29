@@ -1,4 +1,4 @@
-package org.example.fileprocessor;
+package JUnit.src.main.java.org.example.fileprocessor;
 
 import java.io.IOException;
 import java.nio.file.Files;

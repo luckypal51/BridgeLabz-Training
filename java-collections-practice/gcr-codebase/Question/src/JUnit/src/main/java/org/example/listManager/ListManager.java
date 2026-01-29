@@ -1,4 +1,4 @@
-package org.example.listManager;
+package JUnit.src.main.java.org.example.listManager;
 
 import java.util.List;
 

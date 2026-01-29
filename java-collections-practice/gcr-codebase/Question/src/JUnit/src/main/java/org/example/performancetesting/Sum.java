@@ -1,4 +1,4 @@
-package org.example.performancetesting;
+package JUnit.src.main.java.org.example.performancetesting;
 
 public class Sum extends Thread{
     @Override

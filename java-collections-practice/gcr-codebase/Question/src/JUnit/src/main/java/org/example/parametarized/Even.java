@@ -1,4 +1,4 @@
-package org.example.parametarized;
+package JUnit.src.main.java.org.example.parametarized;
 
 public class Even {
     public boolean isEven(int n){

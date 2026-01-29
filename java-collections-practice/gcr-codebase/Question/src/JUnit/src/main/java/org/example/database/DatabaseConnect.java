@@ -1,4 +1,4 @@
-package org.example.database;
+package JUnit.src.main.java.org.example.database;
 
 public class DatabaseConnect {
 

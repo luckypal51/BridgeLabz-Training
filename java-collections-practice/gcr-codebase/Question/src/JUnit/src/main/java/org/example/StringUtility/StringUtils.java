@@ -1,4 +1,4 @@
-package org.example.StringUtility;
+package JUnit.src.main.java.org.example.StringUtility;
 
 public class StringUtils {
     public String reverse(String s){

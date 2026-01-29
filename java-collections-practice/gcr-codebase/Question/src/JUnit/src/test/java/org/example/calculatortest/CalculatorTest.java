@@ -1,4 +1,4 @@
-package org.example.calculatortest;
+package JUnit.src.test.java.org.example.calculatortest;
 
 import org.example.calculator.Calculator;
 import org.junit.Test;
