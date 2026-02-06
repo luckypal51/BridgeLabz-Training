@@ -3,13 +3,17 @@ package logicalQuestion;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 
 public class StringAndList {
-   public static void main(String[] args) {
+   @SuppressWarnings("unchecked")
+public static void main(String[] args) {
 	String str = "Programming";
 	String vowels = "aeiou";
 	Optional<Long>count = Optional.of(str.chars().filter(s->vowels.contains(""+(char)s)).count());
@@ -99,6 +103,73 @@ public class StringAndList {
     Optional<List<Integer>> dup = Optional.of(list7.stream().filter(x->!set.add(x)).toList());
     System.out.println("Duplicated Elements are : "+dup.get());
     System.out.println("\n");
-  
+    
+    //Frequency of the character from the string
+    String st = "banana";
+    Map<Character,Long> map1 = st.chars().mapToObj(x->(char)x).collect(Collectors.groupingBy(x->x,Collectors.counting()));
+    System.out.println(map1);
+    System.out.println("\n");
+    
+    //Group string by length
+    List<String> list11 = List.of("a","bb","ccc","dd");
+    Map<Integer,List<String>> map2 = list11.stream().collect(Collectors.groupingBy(x->x.length()));
+    System.out.println(map2);
+    System.out.println("\n");
+    
+    //First Non Repeating Character 
+    String s2 = "stress";
+    Optional<Character> ch = s2.chars().mapToObj(x->(char)x).filter(x->s2.indexOf(x)==s2.lastIndexOf(x)).findAny();
+    System.out.println("First Non Repeating Character : "+ch.get());
+    System.out.println("\n");
+    
+    //Convert Integer list to String list
+    List<Integer> list12 = List.of(1,2,3);
+    List<String> list13 = list12.stream().map(x->String.valueOf(x)).toList();
+    System.out.println("Converted into String List "+list13);
+    System.out.println("\n");
+    
+    //flat the list of list into list 
+    List<List<Integer>> list14 = List.of(List.of(1,2),List.of(3,4),List.of(5));
+    list14.stream().flatMap(List::stream).forEach(System.out::println);
+    System.out.println("\n");
+    
+    //Square of even number and sum
+    List<Integer> list15 = List.of(1,2,3,4,5);
+    Optional<Integer> square = list15.stream().filter(x->x%2==0).map(x->x*x).reduce((a,b)->a+b);
+    System.out.println("Sum of Square of even number : "+square.get());
+    System.out.println("\n");
+    
+    //Sort HashMap By Value 
+    Map<Character,Integer> map = new HashMap<>();
+    map.put('A',3);
+    map.put('B', 2);
+    map.put('C', 1);
+    map.entrySet().stream().sorted((a,b)->Integer.compare(a.getValue(), b.getValue())).forEach(x->System.out.println(x.getKey()+"-"+x.getValue()));
+    System.out.println("\n");
+    
+    //Common Elements between to list;
+    List<Integer> list17 = List.of(1,2,3,4);
+    List<Integer> list16 = List.of(3,4,5,6);
+    HashSet<Integer> set1 = new HashSet<>(list17);
+    Optional<List<Integer>>result = Optional.of(list16.stream().filter(x->!set1.add(x)).toList());
+    System.out.println(result.get());
+    System.out.println("\n");
+    
+    //Keep only alphabet 
+    String str4 = "stre123ss";
+    Optional<String> re = Optional.of(str4.chars().mapToObj(x->String.valueOf((char)x)).filter(x->Character.isAlphabetic(x.charAt(0))).collect(Collectors.joining()));
+    System.out.println(re.get().toString());
+    System.out.println("\n");
+    
+    //Keep Only Digit
+    String str5 = "stre123ss";
+    Optional<String> re1 = Optional.of(str5.chars().mapToObj(x->String.valueOf((char)x)).filter(x->Character.isDigit(x.charAt(0))).collect(Collectors.joining()));
+    System.out.println(re1.get().toString());
+    System.out.println("\n");
+    
+    String str6 = "java stream ";
+    Map<Character, Long> map78 = str6.chars().mapToObj(x->(char)x).collect(Collectors.groupingBy(x->x,Collectors.counting()));
+    map78.entrySet().forEach(x->System.out.println(x.getKey()+" - "+x.getValue()));
+    System.out.println("\n");
    }
 }
