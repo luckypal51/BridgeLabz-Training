@@ -168,7 +168,7 @@ public static void main(String[] args) {
     System.out.println("\n");
     
     String str6 = "java stream ";
-    Map<Character, Long> map78 = str6.chars().mapToObj(x->(char)x).collect(Collectors.groupingBy(x->x,Collectors.counting()));
+    Map<Character, Long> map78 = str6.chars().mapToObj(x->(char)x).filter(x->x!=' ').collect(Collectors.groupingBy(x->x,Collectors.counting()));
     map78.entrySet().forEach(x->System.out.println(x.getKey()+" - "+x.getValue()));
     System.out.println("\n");
    }
