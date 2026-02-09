@@ -55,5 +55,7 @@ public class MapToList {
         List<Map.Entry<Integer, String>> list8 = map.entrySet().stream().filter(s->s.getKey()%2==0).toList();
 		System.out.println(list8);
 		System.out.println("\n");
+		
+		//
 	}
 }
