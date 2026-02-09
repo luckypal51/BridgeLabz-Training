@@ -1,0 +1,78 @@
+creating patient table :
+mysql> create table patient(patient_id integer auto_increment primary Key, DOB Date , patient_name varchar(50), contact varchar(50),address varchar(150), bloodGroup char);
+Query OK, 0 rows affected (0.14 sec)
+
+Created Procedure to add patient :
+mysql> DELIMITER $$
+mysql> CREATE PROCEDURE addpeople(
+    ->     IN dob DATE,
+    ->     IN pname VARCHAR(100),
+    ->     IN con VARCHAR(50),
+    ->     IN addre VARCHAR(150),
+    ->     IN blood CHAR(3)
+    -> )
+    -> BEGIN
+    ->     INSERT INTO Patient (DOB, patient_name, contact, address, bloodGroup)
+    ->     VALUES (dob, pname, con, addre, blood);
+    -> END $$
+Query OK, 0 rows affected (0.02 sec)
+
+mysql>
+mysql> DELIMITER ;
+
+Output :
+mysql> Call addpeople("2003-12-05","Lucky Pal","8305144536","Berkhera Pathani",'A');
+Query OK, 1 row affected (0.05 sec)
+mysql> select * from patient;
++------------+------------+--------------+------------+------------------+------------+
+| patient_id | DOB        | patient_name | contact    | address          | bloodGroup |
++------------+------------+--------------+------------+------------------+------------+
+|          1 | 2003-12-05 | Lucky Pal    | 8305144536 | Berkhera Pathani | A          |
++------------+------------+--------------+------------+------------------+------------+
+1 row in set (0.03 sec)
+
+---------------------------------------------------------------------------------------
+Update patient details :
+create procedure to update patient detail 
+ delimiter $$
+mysql> create procedure updateInfo(In id integer,In dob Date ,In name varchar(20),In contact varchar(15),In addres varchar(100),In blood char)
+    -> Begin
+    -> update patient set DOB = dob,patient_name = name,contact = contact, address = addres,bloodGroup = blood where patient_id = id;
+    -> END $$
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> delimiter ;
+
+Output :
+mysql> call updateInfo(1,"2003-11-05","Himesh Kurmi","8305144536","Anand Nagar",'B');
+Query OK, 1 row affected (0.07 sec)
+
+mysql> select * from patient;
++------------+------------+--------------+------------+-------------+------------+
+| patient_id | DOB        | patient_name | contact    | address     | bloodGroup |
++------------+------------+--------------+------------+-------------+------------+
+|          1 | 2003-11-05 | Himesh Kurmi | 8305144536 | Anand Nagar | B          |
++------------+------------+--------------+------------+-------------+------------+
+1 row in set (0.04 sec)
+---------------------------------------------------------------------------------------
+Search Patient By Name 
+create procedure to search 
+ delimiter $$
+mysql> create procedure sreachPatient(In name varchar(20))
+    -> begin
+    -> select * from patient where patient_name = name;
+    -> end $$
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> delimiter ;
+
+Output : 
+mysql> call sreachPatient("Himesh Kurmi");
++------------+------------+--------------+------------+-------------+------------+
+| patient_id | DOB        | patient_name | contact    | address     | bloodGroup |
++------------+------------+--------------+------------+-------------+------------+
+|          1 | 2003-11-05 | Himesh Kurmi | 8305144536 | Anand Nagar | B          |
++------------+------------+--------------+------------+-------------+------------+
+1 row in set (0.04 sec)
+
+Query OK, 0 rows affected (0.05 sec)
