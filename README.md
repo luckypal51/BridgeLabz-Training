@@ -207,3 +207,171 @@ This repository tracks my daily learning journey during the BridgeLabz Java Full
 - [Scenario Code Base(DSA)](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-code-base/ScenarioQuestion/src/Question)
 - [Scenario Code Base(OOPs)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioQuestion/src/Questions)
 ---
+
+### Date 20-Jan-2026  
+- Solved 3 scenario-based problems in `dsa-practice`
+- Improved design and problem-solving skills  
+🔗 Code Link:  
+- [Scenario Code Base(DSA)](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-code-base/ScenarioQuestion/src/Question)
+- [java-collections-practice](https://github.com/luckypal51/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/Question/src/exceptions)
+---
+
+### Date 21-Jan-2026  
+- Solved Problem based on Java Regex and JUnit
+- Java Regex API:  
+- Pattern
+- Matcher
+- Methods:
+- find()
+- matches()
+- replaceAll()
+- Solved 2 scenario-based problems in `dsa-practice`
+- Improved design and problem-solving skills  
+🔗 Code Link:  
+- [Scenario Code Base(DSA)](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-code-base/ScenarioQuestion/src/Tree)
+- [java-collections-practice(regex)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/Question/src/regex)
+- [java-collections-practice(junit)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/Question/src/JUnit/src/main/java/org/example)
+---
+
+### Date 22-Jan-2026  
+- Solved Problem based on Java Annotations and Reflection
+- Solved 2 scenario-based problems based on tree in `dsa-practice`
+- Improved design and problem-solving skills  
+
+🔗 Code Link:  
+- [Scenario Code Base(DSA)](https://github.com/luckypal51/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-code-base/ScenarioQuestion/src/Tree)
+- [java-collections-practice(annotations)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/Question/src/anotation)
+- [java-collections-practice(reflections)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/Question/src/reflection)
+
+---
+
+### Date 23-Jan-2026  
+- Created new branch `java-iostreams-practice`  
+- Solved Scenario based problem in `java-collections-practice`
+- Solved Problem on `CSV Hanldings`
+- Introduction to CSV
+- Reading CSV Files
+- Writing CSV Files
+- Parsing CSV Data
+- Data Validation
+- Improved design and problem-solving skills  
+🔗 Code Link:  
+- [java-iostreams-practice](https://github.com/luckypal51/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/com.example.iostream/src/main/java/com/example/iostream/com/example/iostream/csv)
+- [Scenario Code Base(collections)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based-codebase/ScenarioQuestion/src/com)
+---
+
+### Date 24-Jan-2026  
+- Solved Collections Problems based `JSON`
+- Introduction to JSON
+- Reading JSON Data
+- Writing JSON Data
+- Parsing JSON Data
+- JSON Schema Validation
+- Improved design and problem-solving skills  
+🔗 Code Link:  
+- [java-iostreams-practice](https://github.com/luckypal51/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/com.example.iostream/src/main/java/json)
+---
+
+### Date 27-Jan-2026  
+- Create new branch `java8-programmming-practice`
+- Solved Collections Problems based on Lambda Expressions
+- Lambda Expressions
+- Method References
+- Solved Collections Problems based on Functional Interfaces
+- Defining and Implementing Interfaces (Best Practices)
+- Functional Interfaces
+- Default and Static Methods in Interfaces
+- Marker Interfaces
+- Improved design and problem-solving skills  
+
+🔗 Code Link:  
+- [java8-programmming-practice(Lambda Expressions)](https://github.com/luckypal51/BridgeLabz-Training/tree/java8-programmming-practice/java8-programmming-practice/gcr-codebase/Question/src/lamda)
+- [java8-programmming-practice(Functional Interfaces)](https://github.com/luckypal51/BridgeLabz-Training/tree/java8-programmming-practice/java8-programmming-practice/gcr-codebase/Question/src/functionalinterface)
+
+---
+
+### Date 28-Jan-2026  
+- Solved Stream API Problems
+- Intermediate operations: filter, map, flatMap, distinct, sorted, peek, limit, skip. 
+- Terminal operations: collect, forEach, reduce, count, anyMatch, allMatch, noneMatch. 
+- Stateless vs stateful operations: filter is stateless; sorted and distinct are stateful.
+- Ordered vs unordered streams
+- Parallel streams
+- forEach() — Iterable vs Stream
+- Solved Collectors Problems
+- Solved Sceanrio based problem in Stream API
+- Improved design and problem-solving skills  
+🔗 Code Link:  
+- [java8-programmming-practice(scenario)](https://github.com/luckypal51/BridgeLabz-Training/tree/java8-programmming-practice/java8-programmming-practice/scenario-based-codebase/Question/src)
+---
+
+### Date 29-Jan-2026  
+- Solved Sceanrio based problem in Stream API
+- Improved design and problem-solving skills  
+🔗 Code Link:  
+- [java8-programmming-practice(scenario)](https://github.com/luckypal51/BridgeLabz-Training/tree/java8-programmming-practice/java8-programmming-practice/scenario-based-codebase/Question/src)
+---
+
+### Date 30-Jan-2026  
+- Solved Sceanrio based problem in Stream API
+- Improved design and problem-solving skills  
+🔗 Code Link:  
+- [java8-programmming-practice(scenario)](https://github.com/luckypal51/BridgeLabz-Training/tree/java8-programmming-practice/java8-programmming-practice/scenario-based-codebase/Question/src)
+---
+
+### Date 31-Jan-2026  
+- - Create new branch `java-design-pattern-practice`
+- Explored design principles (SOLID, DRY, KISS, YAGNI)
+- Understand the design patterns
+- Singleton Pattern
+- Factory Pattern
+- Observer Pattern
+- Builder Pattern
+- UML Designing
+- Improved design and problem-solving skills  
+🔗 Code Link:  
+- [java-design-pattern-practice](https://github.com/luckypal51/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/Questions/src)
+---
+
+### Date 02-Feb-2026  
+- Creating Threads Using Thread Class
+- Creating Threads Using Runnable Interface
+- Thread Class vs Runnable Interface
+- Thread Life Cycle and States
+- Thread Methods and Operations
+- Solved problems based on multithreading
+- Improved design and problem-solving skill
+🔗 Code Link:  
+- [java-design-pattern-practice(multithreading)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/Questions/src)
+---
+
+### Date 03-Feb-2026  
+- Solved Sceanrio based problem in Multithreading
+- Improved design and problem-solving skills  
+🔗 Code Link:  
+- [java-design-pattern-practice(scenario)](https://github.com/luckypal51/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/Questions/src)
+---
+
+### Day 41 – Scenario Based Problem
+**Date:** 04-Feb-2026  
+- Solved Sceanrio based problem in Stream API
+- Improved design and problem-solving skills  
+
+🔗 Code Link:  
+- [java8-programmming-practice(scenario)](https://github.com/luckypal51/BridgeLabz-Training/tree/java8-programmming-practice/java8-programmming-practice/scenario-based-codebase/Question/src)
+
+---
+
+### Date 05-Feb-2026  
+- Solved Sceanrio based problem in Stream API
+- Improved design and problem-solving skills  
+🔗 Code Link:  
+- [java8-programmming-practice(scenario)](https://github.com/luckypal51/BridgeLabz-Training/tree/java8-programmming-practice/java8-programmming-practice/scenario-based-codebase/Question/src)
+---
+
+### Date 06-Feb-2026  
+- Create new branch `mysql-jdbc-practice`
+- Improved design and problem-solving skills  
+🔗 Code Link:  
+- [mysql-jdbc-practice(mysql)]()
+---
