@@ -1,0 +1,133 @@
+Creating table 
+Query:  create table employees(emp_id integer primary key,emp_name varchar(50),emp_salary varchar(15),dept varchar(50));
+
+----------------------------------------------------------------------------------------------------------------------------
+Adding value int the table
+Created the procedure to add employees
+DELIMITER $$
+mysql> CREATE PROCEDURE addDetails(IN emp_id integer,IN emp_name varchar(50),IN emp_salary varchar(15),IN dept varchar(50))
+    -> BEGIN
+    -> INSERT INTO employees VALUE(emp_id,emp_name,emp_salary,dept)
+    -> END $$
+mysql> DELIMITER ;
+
+Now then get call the procedure and add values
+mysql>CALL addDetails(101,"Lucky Pal","150000","IT");
+
+output:
+mysql> select * from employees;
++--------+-----------+------------+------+
+| emp_id | emp_name  | emp_salary | dept |
++--------+-----------+------------+------+
+|    101 | Lucky Pal | 15000      | IT   |
++--------+-----------+------------+------+
+1 row in set (0.00 sec)
+
+-------------------------------------------------------------------------------------------------------------------------------
+View details :
+Created procedure to view all records
+
+mysql> DELIMITER $$
+mysql> CREATE PROCEDURE viewDetail()
+    -> BEGIN
+    -> SELECT * FROM employees;
+    -> END $$
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> DELIMITER ;
+
+OUTPUT->
+mysql> CALL viewDetail();
++--------+-----------+------------+------+
+| emp_id | emp_name  | emp_salary | dept |
++--------+-----------+------------+------+
+|    101 | Lucky Pal | 15000      | IT   |
++--------+-----------+------------+------+
+1 row in set (0.03 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+-----------------------------------------------------------------------------------------------------------------------------------
+Update salary :
+Create procedure to update salary by id
+mysql>DELIMITER $$
+mysql> CREATE PROCEDURE updateSalary(IN findemp_id integer,IN newSalary varchar(15))
+    -> BEGIN
+    -> UPDATE employees SET emp_salary = newSalary where emp_id=findemp_id;
+    -> END $$
+Query OK, 0 rows affected (0.01 sec)
+mysql> DELIMITER ;
+mysql> CALL updateSalary(101,"25000");
+Query OK, 1 row affected (0.04 sec)
+
+OUTPUT->
+mysql> CALL viewDetail();
++--------+-----------+------------+------+
+| emp_id | emp_name  | emp_salary | dept |
++--------+-----------+------------+------+
+|    101 | Lucky Pal | 25000      | IT   |
++--------+-----------+------------+------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+-------------------------------------------------------------------------------------------------------------------------------------
+Delete user from table 
+create procedure to delete employee 
+ DELIMITER $$
+mysql> CREATE PROCEDURE deleteEmp(IN id integer)
+    -> BEGIN
+    -> DELETE FROM employees where emp_id = id;
+    -> END $$
+Query OK, 0 rows affected (0.04 sec)
+mysql> DELIMITER ;
+
+BEFORE QUERY EXECUTION->
+mysql> call viewDetail();
++--------+-----------------+------------+------+
+| emp_id | emp_name        | emp_salary | dept |
++--------+-----------------+------------+------+
+|    101 | Lucky Pal       | 25000      | IT   |
+|    102 | Himesh kurmi    | 45000      | HR   |
+|    103 | Nageshwar Patel | 85000      | IT   |
++--------+-----------------+------------+------+
+3 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+AFTER QUERY EXECUTION->
+CALL deleteEmp(102);
+Query OK, 1 row affected (0.05 sec)
+
+mysql> call viewDetail();
++--------+-----------------+------------+------+
+| emp_id | emp_name        | emp_salary | dept |
++--------+-----------------+------------+------+
+|    101 | Lucky Pal       | 25000      | IT   |
+|    103 | Nageshwar Patel | 85000      | IT   |
++--------+-----------------+------------+------+
+2 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Search employee by name
+create procedure to search employee 
+mysql> DELIMITER $$
+mysql>  CREATE PROCEDURE searchByName2(IN name varchar(50))
+    ->  BEGIN
+    -> SELECT * FROM employees WHERE emp_name = name;
+    -> END $$
+Query OK, 0 rows affected (0.01 sec)
+mysql> DELIMITER ;
+
+OUTPUT ->
+mysql> CALL searchByName2("Nageshwar Patel");
++--------+-----------------+------------+------+
+| emp_id | emp_name        | emp_salary | dept |
++--------+-----------------+------------+------+
+|    103 | Nageshwar Patel | 85000      | IT   |
++--------+-----------------+------------+------+
+1 row in set (0.03 sec)
+
+Query OK, 0 rows affected (0.04 sec)
