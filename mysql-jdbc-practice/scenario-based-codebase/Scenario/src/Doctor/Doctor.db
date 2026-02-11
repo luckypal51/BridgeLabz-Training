@@ -1,0 +1,141 @@
+create table for specialization
+
+Create table specialist(id integer primary key,type varchar(50));
+mysql> describe specialist;
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| id    | int         | NO   | PRI | NULL    |       |
+| type  | varchar(50) | YES  |     | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+2 rows in set (0.02 sec)
+
+mysql> insert into specialist(id,type)
+       -> values(101,"Cardiology"),
+       ->(102,"Pediatrics"),
+       ->(103,"Dermatology"),
+       ->(104,"Orthopedics");
+Query OK, 4 rows affected (0.08 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+
+mysql> select * from specialist;
++-----+-------------+
+| id  | type        |
++-----+-------------+
+| 101 | Cardiology  |
+| 102 | Pediatrics  |
+| 103 | Dermatology |
+| 104 | Orthopedics |
++-----+-------------+
+4 rows in set (0.01 sec)
+
+Creating table for doctor :
+
+mysql> create table doctor(name varchar(20),specialization integer,contact varchar(15),fees decimal(10,2),foreign key (specialization) references specialist(id));
+Query OK, 0 rows affected (0.09 sec)
+
+mysql> describe doctor;
++----------------+---------------+------+-----+---------+-------+
+| Field          | Type          | Null | Key | Default | Extra |
++----------------+---------------+------+-----+---------+-------+
+| name           | varchar(20)   | YES  |     | NULL    |       |
+| specialization | int           | YES  | MUL | NULL    |       |
+| contact        | varchar(15)   | YES  |     | NULL    |       |
+| fees           | decimal(10,2) | YES  |     | NULL    |       |
++----------------+---------------+------+-----+---------+-------+
+4 rows in set (0.01 sec)
+
+
+mysql> insert into doctor(name,specialization,contact,fees)
+    -> values("Lucky Pal",102,"8305144536",700),
+    -> ("Himesh Kurmi",101,"4500561781",450),
+    -> ("Arvind Kumar",104,"7845123645",200),
+    -> ("Nageshwar Patel",103,"9854213525",1000),
+    -> ("Suraj Kumar",102,"7845412567",85);
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> select * from doctor;
++-----------------+----------------+------------+---------+
+| name            | specialization | contact    | fees    |
++-----------------+----------------+------------+---------+
+| Lucky Pal       |            102 | 8305144536 |  700.00 |
+| Himesh Kurmi    |            101 | 4500561781 |  450.00 |
+| Arvind Kumar    |            104 | 7845123645 |  200.00 |
+| Nageshwar Patel |            103 | 9854213525 | 1000.00 |
+| Suraj Kumar     |            102 | 7845412567 |   85.00 |
++-----------------+----------------+------------+---------+
+5 rows in set (0.00 sec)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+creating procedure to assign or update the specialization 
+ delimiter $$
+mysql> create procedure assignSpeciality(In doctorName varchar(20),In special integer)
+    -> begin
+    -> update doctor set specialization = special where doctorName = name;
+    -> end $$
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> delimiter ;
+
+Output :
+mysql> call assignSpeciality("Nageshwar Patel",102);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> select * from doctor;
++-----------------+----------------+------------+---------+
+| name            | specialization | contact    | fees    |
++-----------------+----------------+------------+---------+
+| Lucky Pal       |            102 | 8305144536 |  700.00 |
+| Himesh Kurmi    |            101 | 4500561781 |  450.00 |
+| Arvind Kumar    |            104 | 7845123645 |  200.00 |
+| Nageshwar Patel |            102 | 9854213525 | 1000.00 |
+| Suraj Kumar     |            102 | 7845412567 |   85.00 |
++-----------------+----------------+------------+---------+
+5 rows in set (0.00 sec)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+view the doctor specialization using join 
+
+mysql> select doctor.name,specialist.type from doctor inner join specialist on doctor.specialization = specialist.id ;
++-----------------+-------------+
+| name            | type        |
++-----------------+-------------+
+| Himesh Kurmi    | Cardiology  |
+| Lucky Pal       | Pediatrics  |
+| Nageshwar Patel | Pediatrics  |
+| Suraj Kumar     | Pediatrics  |
+| Arvind Kumar    | Orthopedics |
++-----------------+-------------+
+5 rows in set (0.02 sec)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Deactive doctor form doctor table 
+creating procedure :
+mysql> delimiter $$
+mysql> create procedure deactived(In docName varchar(20))
+    -> begin
+    -> update doctor set is_active = false where name = docName;
+    -> end $$
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> delimiter ;
+
+Output :
+mysql> call deactived("Himesh Kurmi");
+Query OK, 1 row affected (0.02 sec)
+
+mysql> select * from doctor ;
++-----------------+----------------+------------+---------+-----------+
+| name            | specialization | contact    | fees    | is_active |
++-----------------+----------------+------------+---------+-----------+
+| Lucky Pal       |            102 | 8305144536 |  700.00 |         1 |
+| Himesh Kurmi    |            101 | 4500561781 |  450.00 |         0 |
+| Arvind Kumar    |            104 | 7845123645 |  200.00 |         1 |
+| Nageshwar Patel |            102 | 9854213525 | 1000.00 |         1 |
+| Suraj Kumar     |            102 | 7845412567 |   85.00 |         1 |
++-----------------+----------------+------------+---------+-----------+
+5 rows in set (0.00 sec)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
