@@ -21,9 +21,7 @@ public class Main {
 		}catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());
 		}
-		
-		
-		
+				
 		//here we create new book
 		Book book1 = new Book.Builder()
 							.title("Automic Habits")
